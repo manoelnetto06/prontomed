@@ -20,7 +20,7 @@ Prontomed é um sistema para facilitar o trabalho dos médicos nas suas respecti
 Inicialmente, faça a o download do projeto e confirme se Composer está instalado. Caso não esteja, recomendo a instalação.
 
 Ao baixar o projeto, faça:
-- 1 - Descompactar o projeto.
+- 1 - Descompacte o projeto.
 - 2 - Entre no diretório do projeto e rode o comando: composer install. 
 - 3 - Crie o arquivo .env e especifique as diretivas de configuração do banco, conforme exemplo a seguir:
     DB_CONNECTION=pgsql
