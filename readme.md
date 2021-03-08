@@ -22,26 +22,14 @@ Inicialmente, faça a o download do projeto e confirme se Composer está instala
 Ao baixar o projeto, faça:
 - 1 - Descompacte o projeto.
 - 2 - Entre no diretório do projeto e rode o comando: composer install. 
-- 3 - Crie o arquivo .env e especifique as diretivas de configuração do banco, conforme exemplo a seguir:
-    DB_CONNECTION=pgsql
-    DB_HOST=127.0.0.1
-    DB_PORT=5432
-    DB_DATABASE=prontomed
-    DB_USERNAME=postgres
-    DB_PASSWORD=postgre
-    
-    Obs.: conforme exemplo, utilizei o postgree para rodar o projeto. 
+- 3 - Crie o arquivo .env e especifique as diretivas de configuração do banco
 - 4 - Crie o banco de dados, conforme exemplo: 
     CREATE DATABASE prontomed.
-- 5 - Aplique as migrations 
-    php artisan migrate    
-- 7 - Caso deseje, aplique os Seeders para gerar e inserir dados de amostra 
-    php artisan db:seed
-- 6 - Rode o servidor
-    php artisan serve
-- 7 - Acesse o navegador e digite http://localhost:8000/
-- 8 - Caso ocorra um erro de chave aleatória, rode o comando a seguir para criá-la
-    php artisan key:generate
+- 5 - Aplique as migrations: php artisan migrate    
+- 7 - Caso deseje, aplique os Seeders para gerar e inserir dados de amostra: php artisan db:seed
+- 6 - Rode o servidor: php artisan serve
+- 7 - Acesse o navegador: http://localhost:8000/
+- 8 - Caso ocorra um erro de chave aleatória, rode o comando a seguir para criá-la: php artisan key:generate
 
 ## Tecnologias utilizadas
 
